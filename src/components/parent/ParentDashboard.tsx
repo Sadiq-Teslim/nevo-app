@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Brain, Users, Trophy, LogOut, BookOpen, TrendingUp, Clock, Target, Award, Sparkles } from 'lucide-react';
+import { Brain, Users, Trophy, LogOut, BookOpen, TrendingUp, Clock, Target, Award, Sparkles, CheckCircle, Heart } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Progress } from '../ui/progress';
 import { Badge } from '../ui/badge';
-import nevoLogo from 'figma:asset/eb4ed43b358d525aade73d54d2fe9ed4db700394.png';
+import nevoLogo from 'figma:asset/eb4ed43b358d525aade73d54d2fe9ed4db700394.png'; 
 
 interface ChildData {
   name: string;
